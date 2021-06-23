@@ -1,0 +1,550 @@
+.content {
+    animation-name: fade-in;
+    animation-duration: 2s;
+    width: 100%;
+}
+
+
+
+.content {
+    min-width: 100%;
+}
+
+* {
+    max-width: 100%;
+}
+
+#main .content {
+    width: 100%;
+}
+
+.sidebar {
+    animation-name: fade-in;
+    animation-duration: 2s;
+    max-height: 100%;
+}
+
+img {
+    width: 325px;
+    height: 160px;
+    transition: 0.5s all;
+}
+
+.lost {
+    background-color: rgb(255, 94, 126);
+    border-bottom: 1px solid #555;
+}
+
+.win {
+    background-color: rgb(139, 250, 42);
+    border-bottom: 1px solid #555;
+}
+
+.table-overlay {
+    display: flex;
+    overflow: hidden;
+}
+
+.tblhdr {
+    font-family: 'Roboto condensed';
+    text-align: center;
+    font-size: 20px;
+    font-weight: 2em;
+    background-color: rgb(242, 153, 0);
+}
+
+.final {
+    font-family: 'Roboto condensed';
+}
+
+.team-names:hover {
+    text-decoration: underline rgb(94, 94, 93) 2px solid;
+    cursor: pointer;
+    font-size: 1.02rem;
+    transition: 0.5s ease-in;
+}
+
+.home-page-button {
+    margin: 20px 50px;
+    padding: 10px 15px;
+    border: none;
+    text-decoration: none;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    background: rgb(89, 150, 255);
+    -webkit-transition: background, padding 500ms ease;
+    -moz-transition: background, padding 500ms ease;
+    -o-transition: background, padding 500ms ease;
+    transition: 0.5s;
+    border-radius: 5px 40px;
+}
+
+.home-page-button:hover {
+    background-color: rgb(20, 157, 242);
+    padding: 20px 30px;
+    border-radius: 40px 5px;
+}
+
+.gb {
+    background-color: rgb(190, 190, 190);
+}
+
+
+.playoff-order-img {
+    filter: blur(1px);
+}
+
+.playoff-order-img:hover {
+    height: 90%;
+    width: 90%;
+    border: 1px solid black;
+    transition: 1.6s;
+    filter: blur(0);
+}
+
+body {
+    background: rgba(186, 212, 255, 0.5);
+    animation-name: fade-in;
+    animation-duration: 2s;
+    font-family: 'Gentium book Basic', Arial, sans-serif;
+}
+
+#main {
+    display: grid;
+    /*grid-template-columns: 70% 30%;*/
+    grid-gap: 50px;
+    width: 100%;
+}
+
+.sidebar {
+    display: grid;
+    grid-gap: 50px;
+    width: 100%;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+}
+
+li {
+    font-family: 'Lato', sans-serif;
+}
+
+a {
+    font-family: 'Lato', sans-serif;
+    text-decoration: none
+}
+
+h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.menu-btn {
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    z-index: 2;
+    animation: slideInFromLeft 1s ease-in;
+}
+
+.menu-btn:hover {
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+.sidebar {
+    transition: transform 0.5s ease-in-out;
+    float: left;
+}
+
+.sidebar {
+    background: rgb(255, 227, 191);
+    width: 400px;
+    flex-wrap: wrap;
+}
+
+.subtitle {
+    color: rgb(201, 119, 30);
+}
+
+h3 {
+    color: rgb(3, 161, 113);
+    font-family: 'Roboto Condensed';
+}
+
+.black {
+    color: #000;
+}
+
+.title {
+    color: rgb(201, 119, 30);
+    font-family: 'Roboto Condensed';
+}
+
+.image-grid {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.image-grid-img {
+    margin: 30px;
+    margin: auto;
+    border-radius: 10px;
+    width: 24vw;
+    height: 24vh;
+}
+
+.image-grid-img:hover {
+    cursor: pointer;
+    border-radius: 50px;
+    transition: 0.3s ease-in-out;
+}
+
+#image-1 {
+    float: right;
+    margin: 5px;
+    height: 300px;
+    border-radius: 10px;
+    animation: slideInFromLeft 1s ease-in;
+}
+
+#image-1:hover {
+    cursor: pointer;
+    border-radius: 50px;
+    height: 350px;
+    width: 400px;
+    transition: 1s ease-in-out;
+}
+
+.post {
+    border: 2px solid rgb(109, 207, 242);
+    margin: 10px;
+}
+
+.post:hover {
+    border: 2px solid rgb(168, 232, 255);
+    transition: 0.2s ease-in;
+}
+
+.post-title {
+    margin-left: 5px;
+    font-family: 'Roboto Condensed';
+    cursor: pointer;
+}
+
+.post-title:hover {
+    text-decoration: underline 2px solid black;
+    color: rgb(66, 66, 66);
+}
+
+.post-text {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.post>a {
+    margin-left: 5px;
+    margin-right: 5px;
+    text-decoration: none;
+    color: rgb(70, 137, 244);
+    transition: 0.5s color;
+}
+
+.post>a:hover {
+    color: rgb(186, 212, 255);
+}
+
+.link:hover {
+    color: #2271f0;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.playoff-order-main-point-highlight {
+    color: rgb(230, 30, 90);
+}
+
+.sidebar {
+    max-width: 500px;
+}
+
+.content {
+    width: 40px;
+}
+
+.post-text {
+    display: none;
+}
+
+/* Email*/
+.email-form {
+    width: 30%;
+    background-color: #d9d8d7;
+    position: relative;
+    border-radius: 10px;
+    line-height: 0;
+    margin-top: 1rem;
+    margin: 2rem 0 0 3rem;
+}
+
+.email-form .form-control {
+    border: 0;
+    outline: 0;
+    font-size: 1rem;
+    color: #000;
+    background-color: transparent;
+    font-family: inherit;
+    margin: 0;
+    padding: 0 3rem 0 1.5rem;
+    width: 100%;
+    height: 45px;
+    border-radius: 5px;
+}
+
+.email-form .form-control-wrap {
+    color: #fff;
+}
+
+form .submit {
+    display: inline-block;
+    top: 0;
+    right: 0;
+    width: 90px;
+    height: 45px;
+    background-color: #424242;
+    font-size: 1rem;
+    text-align: center;
+    margin: 2rem 0 0 3rem;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px 5px 5px 5px;
+}
+
+form .submit i {
+    margin: 5px;
+}
+
+form .submit:hover {
+    opacity: 0.9;
+    transition: 0.5s ease-in-out;
+}
+
+.sidebar {
+    display: none;
+}
+
+/* Arrows */
+.arrow {
+    cursor: pointer;
+    position: absolute;
+    top: 165%;
+    margin-top: -35px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+}
+
+#arrow-left {
+    border-width: 30px 40px 30px 0;
+    border-color: transparent #000 transparent transparent;
+    left: 0;
+    margin-left: 30px;
+}
+
+#arrow-right {
+    border-width: 30px 0 30px 40px;
+    border-color: transparent transparent transparent #000;
+    right: 0;
+    margin-right: 30px;
+}
+
+@media(max-width: 1100px) {
+    .image-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media(max-width: 657px) {
+    .arrow {
+        top: 175%;
+    }
+}
+
+@media(max-width: 555px) {
+    .arrow {
+        top: 195%;
+    }
+}
+
+@media(max-width: 400px) {
+    .arrow {
+        top: 205%;
+    }
+}
+
+@media(max-width: 1600px) {
+    .menu-btn {
+        display: block;
+    }
+
+    .image-grid-img {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .content {
+        width: 100%;
+    }
+
+    .menu-btn:hover {
+        opacity: 0.5;
+    }
+
+    .sidebar h2.post-title {
+        margin-right: 50px;
+    }
+
+    .sidebar {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: rgb(242, 246, 247);
+        width: 20%;
+        height: 100%;
+        border-right: #ccc 1px solid;
+        border-bottom: #ccc 1px solid;
+        border-radius: 0 2rem 2rem 0;
+        opacity: 0.95;
+        padding: 30px;
+        transform: translateX(-560px);
+        transition: transform 0.5s ease-in-out;
+    }
+
+    .sidebar h2 {
+        padding: 10px;
+        border-bottom: #ccc solid 1px;
+        font-size: 14px;
+    }
+
+    .sidebar {
+        background: #f2f2f2;
+    }
+
+    .sidebar.show {
+        transform: translateX(-20px);
+    }
+
+    .post {
+        border-radius: 20px;
+    }
+
+    .content {
+        animation-name: fade-in;
+        animation-duration: 2s;
+    }
+}
+
+
+@media(max-width: 700px) {
+    #image-1 {
+        display: none;
+    }
+
+    .fa-bars {
+        font-size: 2.5rem;
+        transition: 0.2s;
+    }
+
+    .playoff-order-img:hover {
+        width: 100%;
+        height: 40%;
+    }
+}
+
+@media(max-width: 600px) {
+    .fa-bars {
+        font-size: 2rem;
+    }
+}
+
+@media(max-width: 750px) {
+    .playoff-order-img:hover {
+        width: 100%;
+        height: 50%;
+    }
+}
+
+@media(max-width: 800px) {
+    .playoff-order-img:hover {
+        width: 100%;
+        height: 50%;
+    }
+}
+
+@media(max-width: 1024px) {
+    .playoff-order-img:hover {
+        height: 30%;
+    }
+}
+
+/* Keyframes */
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideInFromRight {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInFromTop {
+    0% {
+        transform: translateY(-100%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideInFromBottom {
+    0% {
+        transform: translateY(100%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
